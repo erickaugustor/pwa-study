@@ -1,0 +1,29 @@
+{
+  "name": "TEST PWA",
+  "short_name": "PWA",
+  "start_url": "/index.html",
+  "scope": ".", //todas as paginas incluidas no escopo
+  "display": "standalone", //como vai aparecer? sem as coisas do navegador
+  "background_color": "#fff",
+  "theme_color": "#3F51B5",
+  "description": "Um teste PWA",
+  "dir":"ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "icons": [{
+              "src": "/src/images/icons/app-icon-48x48.png",
+              "type": "image/png",
+              "sizs": "48x48"
+            },
+            {
+              "src": "/src/images/icons/app-icon-96x96.png",
+              "type": "image/png",
+              "sizes": "96x96"
+            }],
+  "related_applications": [
+  { 
+    "platform": "play",
+    "url": "a",
+    "id": "com.example.app1"
+  }]           
+}
